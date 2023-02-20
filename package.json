@@ -1,0 +1,19 @@
+{
+  "name": "use-export",
+  "version": "1.0.0",
+  "description": "Equisde",
+  "main": "app.js",
+  "exports": {
+    ".": "./app.js",
+    "./admin": "./admin.js"
+  },
+  "scripts": {
+    "server": "npx json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {}
+}
